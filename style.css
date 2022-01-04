@@ -1,0 +1,44 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+.first{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.half-width img{
+    width: 80%;
+}
+h1{
+    font-size: 45px;
+}
+.orange-color{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(tomato, orange);
+padding: 20px 40px;
+border-radius: 15px;
+}
+div p{
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+.second{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.third{
+    display: flex;
+}
