@@ -39,6 +39,30 @@ div p{
     background-repeat: no-repeat;
     background-position: right;
 }
-.third{
+.flexible{
     display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
+.Developer{
+    width: 50%;
+    padding-left: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 15px;
+}
+#border-1{
+    border-left: 5px solid;
+    background-image: linear-gradient(cyan blue);
+    border-image-slice: 0 0 0 2;
+}
+#border-2{
+    border-left: 5px solid;
+    background-image: linear-gradient(salmon red);
+    border-image-slice: 0 0 0 2;
 }
